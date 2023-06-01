@@ -1,0 +1,50 @@
+body {
+    padding: 1%;
+    background-color: darkslategrey;
+ }
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.container: after {
+    clear: both;
+}
+
+.container {
+animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+.card {
+float: right;
+}
+
+.header, .middle, .footer {
+    float: left;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    height: auto;
+    border-radius: 7px;
+ }
+
+.header, .footer {
+background-color: black;
+text-align: center;
+margin-bottom: 20px;
+border: 3px solid darkseagreen;
+}
+
+.middle {
+color: black;
+background-color: darkseagreen;
+margin-bottom: 20px;
+text-indent: 50px;
+border: 3px solid black;
+}
